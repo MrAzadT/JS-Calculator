@@ -6,11 +6,11 @@
 // console.log(r.source);
 
 class person {
-  constructor() {
-    this.name = "azad";
+  constructor(name1) {
+    this.name1 = name1;
   }
 }
-const person2 = new person();
-const person3 = new person();
-console.log(person2.name);
-console.log(person3.name);
+const person2 = new person("azad");
+const person3 = new person("tamal");
+console.log(person2.name1);
+console.log(person3.name1);
