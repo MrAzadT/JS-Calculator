@@ -19,14 +19,25 @@
 // console.log(person2.greed());
 // // console.log(person3.greed());
 
-class person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-  info() {
-    return `hiii i am ${this.name} and my age ${this.age}`;
-  }
-}
-const per = new person("azad", 26);
-console.log(per.info());
+// class person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+//   info() {
+//     return `hiii i am ${this.name} and my age ${this.age}`;
+//   }
+// }
+// const per = new person("azad", 26);
+// console.log(per.info());
+
+// const name = "Hero";
+// const age = 34;
+
+// const person = { name, age };
+// console.log(person);
+
+const adventurer = { name: "Alice", cat: { name: "Lucy" } };
+
+const ratName = adventurer?.rat?.name;
+console.log(ratName);
