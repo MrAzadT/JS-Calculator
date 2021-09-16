@@ -45,6 +45,10 @@
 
 // console.log(person ? person : "person is null");
 
-const obj = { a: 1 };
+// const obj = { a: 1 };
 
-console.log(Object.keys(obj).length === 0);
+// console.log(Object.keys(obj).length === 0);
+
+let ul = `<li>Bou<li>`;
+ul += `<li>Jamai<li>`;
+console.log(ul);
